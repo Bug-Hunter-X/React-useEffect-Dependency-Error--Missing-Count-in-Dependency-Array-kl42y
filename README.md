@@ -1,0 +1,2 @@
+# React useEffect Dependency Error: Missing Count in Dependency Array
+This example demonstrates a common error in React's `useEffect` hook: missing a dependency in the dependency array.  Failure to include `count` in the dependency array leads to an infinite render loop because the effect runs on every render and triggers another state update.  The solution showcases the correct way to handle this. This repository includes the buggy code and the corrected version.
